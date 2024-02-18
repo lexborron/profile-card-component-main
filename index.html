@@ -7,43 +7,47 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Profile card component</title>
 </head>
 
 <body>
   <main>
-    <article>
+    <article class="card">
       <!-- Background header + Profile Pic -->
-      <div>
+      <div class="header">
         <img src="images/image-victor.jpg" alt="Profile picture of Victor">
       </div>
       <!-- Personal Information -->
-      <section>
-        <p>Victor Crest</p>
-        <p>26</p>
-        <p>London</p>
+      <section class="about">
+        <p class="about__name">Victor Crest</p>
+        <p class="about__age">26</p>
+        <p class="about__city">London</p>
       </section>
       <!-- Social Stats -->
-      <section>
+      <section class="stats">
         <div>
-          <p>80K</p>
-          <p>Followers</p>
+          <p class="stats__number">80K</p>
+          <p class="stats__label">Followers</p>
         </div>
         <div>
-          <p>803K</p>
-          <p>Likes</p>
+          <p class="stats__number">803K</p>
+          <p class="stats__label">Likes</p>
         </div>
         <div>
-          <p>1.4K</p>
-          <p>Photos</p>
+          <p class="stats__number">1.4K</p>
+          <p class="stats__label">Photos</p>
         </div>
       </section>
     </article>
   </main>
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://github.com/lexborron">Lexie Borron</a>.
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+    <p>Coded by <a href="https://github.com/lexborron">Lexie Borron</a>.</p>
   </footer>
 </body>
 
