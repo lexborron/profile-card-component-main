@@ -13,8 +13,7 @@ body {
   background-image: url(images/bg-pattern-top.svg),
     url(images/bg-pattern-bottom.svg);
   background-color: hsl(185, 75%, 39%);
-  background-position: calc((-50vw) + 70%) calc((-50vh) + 70%),
-    calc((100% + 45vw) - 70%) calc((100% + 50vh) - 70%);
+  background-position: right 48vw bottom 52vh, left 48vw top 52vh;
   background-size: contain, contain;
   background-repeat: no-repeat, no-repeat;
   font-family: "Kumbh Sans", sans-serif;
@@ -94,7 +93,7 @@ body {
   bottom: 0;
   margin-bottom: 2rem;
   color: hsl(229, 23%, 23%);
-  font-size: 0.9rem;
+  font-size: 0.65rem;
 }
 
 a {
